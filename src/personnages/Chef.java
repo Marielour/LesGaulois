@@ -21,9 +21,9 @@ public class Chef {
 		System.out.println(prendreParole() + "« " + texte +" »");
 	}
 	
-    private String prendreParole() {
-		return "Le chef " + nom + ": ";
-    }
+    //private String prendreParole() {
+		//return "Le chef " + nom + ": ";
+    //}
     
     public void frapper(Romain romain) {
     	System.out.println(nom + " envoie un grand coup dans la machoir de"

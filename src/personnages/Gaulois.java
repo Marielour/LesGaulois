@@ -10,6 +10,7 @@ public class Gaulois {
 		this.force = force;
 	}
 	
+	
 	public String getNom() {
 		return nom;
 	}
@@ -29,10 +30,10 @@ public class Gaulois {
     }
     
     @Override
-    public String toString() {
-		return "Gaulois [nom=" + nom + ", force=" + force + ", effetPotion=" 
-			   + effetPotion + "]";
-	}
+//    public String toString() {
+//		return "Gaulois [nom=" + nom + ", force=" + force + ", effetPotion=" 
+//			   + effetPotion + "]";
+//	}
     
     public static void main(String[] args) {
     	
